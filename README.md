@@ -1,12 +1,45 @@
-# React + Vite
+# Media Player App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación de React que implementa un reproductor multimedia con un video y un audio.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Requisitos previos
 
-## Expanding the ESLint configuration
+Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [Node.js](https://nodejs.org/) (Versión recomendada: 16.x o superior)
+- [npm](https://www.npmjs.com/) o [yarn](https://yarnpkg.com/)
+
+---
+
+## Instalación
+
+Sigue estos pasos para clonar el repositorio e instalar las dependencias necesarias:
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/alexiaruegut/m9_music_video
+
+# Acceder al directorio del proyecto
+cd m9_music_video
+
+# Instalar dependencias con npm
+npm install
+
+# Instalar dependencias necesarias adicionales
+npm install lucide-react
+```
+
+---
+
+## Construcción
+
+Sigue estos pasos para inciiar el proyecto:
+
+```bash
+# Para iniciar
+npm run dev
+
+Local:   http://localhost:5173/
+```
